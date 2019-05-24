@@ -134,6 +134,8 @@ cd ~/ffmpeg_sources && curl -O -L https://ffmpeg.org/releases/ffmpeg-snapshot.ta
     --enable-openssl \
     --enable-nonfree && make && make install && hash -r
 
-ffmpeg
 
+cp /root/bin/* /usr/bin/ -vfn
+ffmpeg
 ffprobe
+echo "FINISHED INSTALL"
