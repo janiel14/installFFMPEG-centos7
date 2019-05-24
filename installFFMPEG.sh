@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # dependency
-yum install autoconf automake bzip2 cmake hg freetype-devel gcc gcc-c++ git libtool make mercurial pkgconfig zlib-devel wget curl openssl -y
+yum install autoconf automake bzip2 cmake hg freetype-devel gcc gcc-c++ git libtool make mercurial pkgconfig zlib-devel wget curl openssl openssl-devel -y
 
 # Install folder
 mkdir ~/ffmpeg_sources -v
